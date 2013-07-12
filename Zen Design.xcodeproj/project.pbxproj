@@ -18,6 +18,27 @@
 		0514E0D61784BA2B003B38FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0D51784BA2B003B38FF /* Default-568h@2x.png */; };
 		0514E0D91784BA2B003B38FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0D71784BA2B003B38FF /* MainStoryboard.storyboard */; };
 		0514E0DC1784BA2B003B38FF /* _ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0514E0DB1784BA2B003B38FF /* _ViewController.m */; };
+		0514E0F21784BA49003B38FF /* acessorios_aereos_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0E51784BA49003B38FF /* acessorios_aereos_icone.png */; };
+		0514E0F31784BA49003B38FF /* alcas_para_portas_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0E61784BA49003B38FF /* alcas_para_portas_icone.png */; };
+		0514E0F41784BA49003B38FF /* colecoes_banho_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0E71784BA49003B38FF /* colecoes_banho_icone.png */; };
+		0514E0F51784BA49003B38FF /* institucional_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0E81784BA49003B38FF /* institucional_icone.png */; };
+		0514E0F61784BA49003B38FF /* puxadores_para_moveis.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0E91784BA49003B38FF /* puxadores_para_moveis.png */; };
+		0514E0F81784BA49003B38FF /* acessorios_aereos_texto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0EC1784BA49003B38FF /* acessorios_aereos_texto.png */; };
+		0514E0F91784BA49003B38FF /* alcas_para_portas_texto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0ED1784BA49003B38FF /* alcas_para_portas_texto.png */; };
+		0514E0FA1784BA49003B38FF /* colecoes_banho_texto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0EE1784BA49003B38FF /* colecoes_banho_texto.png */; };
+		0514E0FB1784BA49003B38FF /* institucional_texto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0EF1784BA49003B38FF /* institucional_texto.png */; };
+		0514E0FC1784BA49003B38FF /* puxadores_para_moveis_texto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E0F01784BA49003B38FF /* puxadores_para_moveis_texto.png */; };
+		0514E1051784BB1B003B38FF /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E1041784BB1B003B38FF /* icone.png */; };
+		0514E1091784BB62003B38FF /* icone_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E1081784BB62003B38FF /* icone_2x.png */; };
+		0514E1111784BC10003B38FF /* fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E10A1784BC10003B38FF /* fundo.png */; };
+		0514E1121784BC10003B38FF /* icone_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E10B1784BC10003B38FF /* icone_2x.png */; };
+		0514E1131784BC10003B38FF /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E10C1784BC10003B38FF /* icone.png */; };
+		0514E1141784BC10003B38FF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E10D1784BC10003B38FF /* logo.png */; };
+		0514E1161784BC10003B38FF /* texto_institucional.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E10F1784BC10003B38FF /* texto_institucional.png */; };
+		0514E1171784BC10003B38FF /* voltar_botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E1101784BC10003B38FF /* voltar_botao.png */; };
+		0514E1191784BC36003B38FF /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E1181784BC36003B38FF /* splash.png */; };
+		0514E11B1784BC42003B38FF /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E11A1784BC42003B38FF /* Default-Landscape~ipad.png */; };
+		0514E11D1784BC46003B38FF /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514E11C1784BC46003B38FF /* Default-Landscape@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +58,27 @@
 		0514E0D81784BA2B003B38FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0514E0DA1784BA2B003B38FF /* _ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _ViewController.h; sourceTree = "<group>"; };
 		0514E0DB1784BA2B003B38FF /* _ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _ViewController.m; sourceTree = "<group>"; };
+		0514E0E51784BA49003B38FF /* acessorios_aereos_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acessorios_aereos_icone.png; sourceTree = "<group>"; };
+		0514E0E61784BA49003B38FF /* alcas_para_portas_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alcas_para_portas_icone.png; sourceTree = "<group>"; };
+		0514E0E71784BA49003B38FF /* colecoes_banho_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colecoes_banho_icone.png; sourceTree = "<group>"; };
+		0514E0E81784BA49003B38FF /* institucional_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = institucional_icone.png; sourceTree = "<group>"; };
+		0514E0E91784BA49003B38FF /* puxadores_para_moveis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puxadores_para_moveis.png; sourceTree = "<group>"; };
+		0514E0EC1784BA49003B38FF /* acessorios_aereos_texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acessorios_aereos_texto.png; sourceTree = "<group>"; };
+		0514E0ED1784BA49003B38FF /* alcas_para_portas_texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alcas_para_portas_texto.png; sourceTree = "<group>"; };
+		0514E0EE1784BA49003B38FF /* colecoes_banho_texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colecoes_banho_texto.png; sourceTree = "<group>"; };
+		0514E0EF1784BA49003B38FF /* institucional_texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = institucional_texto.png; sourceTree = "<group>"; };
+		0514E0F01784BA49003B38FF /* puxadores_para_moveis_texto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puxadores_para_moveis_texto.png; sourceTree = "<group>"; };
+		0514E1041784BB1B003B38FF /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone.png; sourceTree = "<group>"; };
+		0514E1081784BB62003B38FF /* icone_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_2x.png; sourceTree = "<group>"; };
+		0514E10A1784BC10003B38FF /* fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fundo.png; path = ../../Zen_parte/estrutura/fundo.png; sourceTree = "<group>"; };
+		0514E10B1784BC10003B38FF /* icone_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone_2x.png; path = ../../Zen_parte/estrutura/icone_2x.png; sourceTree = "<group>"; };
+		0514E10C1784BC10003B38FF /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = ../../Zen_parte/estrutura/icone.png; sourceTree = "<group>"; };
+		0514E10D1784BC10003B38FF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Zen_parte/estrutura/logo.png; sourceTree = "<group>"; };
+		0514E10F1784BC10003B38FF /* texto_institucional.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texto_institucional.png; path = ../../Zen_parte/estrutura/texto_institucional.png; sourceTree = "<group>"; };
+		0514E1101784BC10003B38FF /* voltar_botao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = voltar_botao.png; path = ../../Zen_parte/estrutura/voltar_botao.png; sourceTree = "<group>"; };
+		0514E1181784BC36003B38FF /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../Zen_parte/estrutura/splash.png; sourceTree = "<group>"; };
+		0514E11A1784BC42003B38FF /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		0514E11C1784BC46003B38FF /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,11 @@
 		0514E0B31784BA2B003B38FF = {
 			isa = PBXGroup;
 			children = (
+				0514E11C1784BC46003B38FF /* Default-Landscape@2x~ipad.png */,
+				0514E11A1784BC42003B38FF /* Default-Landscape~ipad.png */,
+				0514E1081784BB62003B38FF /* icone_2x.png */,
+				0514E1041784BB1B003B38FF /* icone.png */,
+				0514E0E21784BA36003B38FF /* Imagens */,
 				0514E0C51784BA2B003B38FF /* ZenApp */,
 				0514E0BE1784BA2B003B38FF /* Frameworks */,
 				0514E0BD1784BA2B003B38FF /* Products */,
@@ -107,6 +154,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0514E0E21784BA36003B38FF /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				0514E0FD1784BAF8003B38FF /* estrutura */,
+				0514E0E41784BA49003B38FF /* icones */,
+				0514E0EB1784BA49003B38FF /* textos */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+		0514E0E41784BA49003B38FF /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				0514E0E51784BA49003B38FF /* acessorios_aereos_icone.png */,
+				0514E0E61784BA49003B38FF /* alcas_para_portas_icone.png */,
+				0514E0E71784BA49003B38FF /* colecoes_banho_icone.png */,
+				0514E0E81784BA49003B38FF /* institucional_icone.png */,
+				0514E0E91784BA49003B38FF /* puxadores_para_moveis.png */,
+			);
+			name = icones;
+			path = ../../Zen_parte/icones;
+			sourceTree = "<group>";
+		};
+		0514E0EB1784BA49003B38FF /* textos */ = {
+			isa = PBXGroup;
+			children = (
+				0514E0EC1784BA49003B38FF /* acessorios_aereos_texto.png */,
+				0514E0ED1784BA49003B38FF /* alcas_para_portas_texto.png */,
+				0514E0EE1784BA49003B38FF /* colecoes_banho_texto.png */,
+				0514E0EF1784BA49003B38FF /* institucional_texto.png */,
+				0514E0F01784BA49003B38FF /* puxadores_para_moveis_texto.png */,
+			);
+			name = textos;
+			path = ../../Zen_parte/textos;
+			sourceTree = "<group>";
+		};
+		0514E0FD1784BAF8003B38FF /* estrutura */ = {
+			isa = PBXGroup;
+			children = (
+				0514E1181784BC36003B38FF /* splash.png */,
+				0514E10A1784BC10003B38FF /* fundo.png */,
+				0514E10B1784BC10003B38FF /* icone_2x.png */,
+				0514E10C1784BC10003B38FF /* icone.png */,
+				0514E10D1784BC10003B38FF /* logo.png */,
+				0514E10F1784BC10003B38FF /* texto_institucional.png */,
+				0514E1101784BC10003B38FF /* voltar_botao.png */,
+			);
+			name = estrutura;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,7 +234,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "FmCriação";
 			};
-			buildConfigurationList = 0514E0B71784BA2B003B38FF /* Build configuration list for PBXProject "ZenApp" */;
+			buildConfigurationList = 0514E0B71784BA2B003B38FF /* Build configuration list for PBXProject "Zen Design" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,6 +261,27 @@
 				0514E0D41784BA2B003B38FF /* Default@2x.png in Resources */,
 				0514E0D61784BA2B003B38FF /* Default-568h@2x.png in Resources */,
 				0514E0D91784BA2B003B38FF /* MainStoryboard.storyboard in Resources */,
+				0514E0F21784BA49003B38FF /* acessorios_aereos_icone.png in Resources */,
+				0514E0F31784BA49003B38FF /* alcas_para_portas_icone.png in Resources */,
+				0514E0F41784BA49003B38FF /* colecoes_banho_icone.png in Resources */,
+				0514E0F51784BA49003B38FF /* institucional_icone.png in Resources */,
+				0514E0F61784BA49003B38FF /* puxadores_para_moveis.png in Resources */,
+				0514E0F81784BA49003B38FF /* acessorios_aereos_texto.png in Resources */,
+				0514E0F91784BA49003B38FF /* alcas_para_portas_texto.png in Resources */,
+				0514E0FA1784BA49003B38FF /* colecoes_banho_texto.png in Resources */,
+				0514E0FB1784BA49003B38FF /* institucional_texto.png in Resources */,
+				0514E0FC1784BA49003B38FF /* puxadores_para_moveis_texto.png in Resources */,
+				0514E1051784BB1B003B38FF /* icone.png in Resources */,
+				0514E1091784BB62003B38FF /* icone_2x.png in Resources */,
+				0514E1111784BC10003B38FF /* fundo.png in Resources */,
+				0514E1121784BC10003B38FF /* icone_2x.png in Resources */,
+				0514E1131784BC10003B38FF /* icone.png in Resources */,
+				0514E1141784BC10003B38FF /* logo.png in Resources */,
+				0514E1161784BC10003B38FF /* texto_institucional.png in Resources */,
+				0514E1171784BC10003B38FF /* voltar_botao.png in Resources */,
+				0514E1191784BC36003B38FF /* splash.png in Resources */,
+				0514E11B1784BC42003B38FF /* Default-Landscape~ipad.png in Resources */,
+				0514E11D1784BC46003B38FF /* Default-Landscape@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0514E0B71784BA2B003B38FF /* Build configuration list for PBXProject "ZenApp" */ = {
+		0514E0B71784BA2B003B38FF /* Build configuration list for PBXProject "Zen Design" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0514E0DD1784BA2B003B38FF /* Debug */,

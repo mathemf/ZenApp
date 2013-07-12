@@ -1,26 +1,366 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="4">
             <objects>
-                <viewController id="2" customClass="_ViewController" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" id="2" customClass="_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fundo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eNS-5q-bS6"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="BZ7-uT-3Mq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="DvW-4C-RPW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xG8-65-IPS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="Cfo-YJ-gW3"/>
+                                    <constraint firstAttribute="height" constant="82" id="w1Q-2J-6D1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="institucional_icone.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jKG-lp-6yQ" kind="modal" modalTransitionStyle="flipHorizontal" id="RqC-7y-KpA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDn-eP-rjH">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="HO3-25-Mg8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="acessorios_aereos_icone.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bT-G4-7qC">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="XmL-Ux-uel"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="colecoes_banho_icone.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUU-Rl-qJw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="K6Y-JC-4Ca"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="alcas_para_portas_icone.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWj-8l-c8B">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="SMH-gg-vOw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="puxadores_para_moveis.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2C8-Qz-MS3">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="236" id="Fgr-72-Cgo"/>
+                                    <constraint firstAttribute="height" constant="44" id="LHL-iH-Z80"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="INSTITUCIONAL">
+                                    <color key="titleColor" red="0.76078438758850098" green="0.74901962280273438" blue="0.7450980544090271" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jKG-lp-6yQ" kind="modal" modalTransitionStyle="flipHorizontal" id="7Bq-Xv-EVb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INr-5U-87D">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="410" id="O1T-M5-34S"/>
+                                    <constraint firstAttribute="height" constant="44" id="XP9-P2-OD9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="PUXADORES PARA MÓVEIS">
+                                    <color key="titleColor" red="0.7607843876" green="0.74901962280000001" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sk-WT-HRM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="FUK-Ee-oU5"/>
+                                    <constraint firstAttribute="width" constant="329" id="kCE-lo-kOy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="ALÇAS PARA PORTAS">
+                                    <color key="titleColor" red="0.7607843876" green="0.74901962280000001" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUY-oB-ycX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Kcj-Uh-C0e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="COLEÇÕES BANHO">
+                                    <color key="titleColor" red="0.7607843876" green="0.74901962280000001" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEW-Ux-oOs">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="Acf-yv-5NY"/>
+                                    <constraint firstAttribute="height" constant="44" id="sUz-VE-pTj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="ACESSÓRIOS AÉREOS">
+                                    <color key="titleColor" red="0.7607843876" green="0.74901962280000001" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NUU-Rl-qJw" firstAttribute="trailing" secondItem="1bT-G4-7qC" secondAttribute="trailing" type="default" id="2rc-fQ-B0v"/>
+                            <constraint firstItem="8sk-WT-HRM" firstAttribute="leading" secondItem="INr-5U-87D" secondAttribute="leading" type="default" id="4za-lt-Utn"/>
+                            <constraint firstItem="2C8-Qz-MS3" firstAttribute="leading" secondItem="INr-5U-87D" secondAttribute="leading" type="default" id="7H5-P4-Zwc"/>
+                            <constraint firstItem="2C8-Qz-MS3" firstAttribute="centerY" secondItem="xG8-65-IPS" secondAttribute="centerY" type="default" id="B8M-Wp-QVO"/>
+                            <constraint firstItem="oDn-eP-rjH" firstAttribute="top" secondItem="1bT-G4-7qC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="F9b-1G-PZC"/>
+                            <constraint firstItem="oDn-eP-rjH" firstAttribute="leading" secondItem="1bT-G4-7qC" secondAttribute="leading" type="default" id="HNk-f6-n29"/>
+                            <constraint firstItem="GWj-8l-c8B" firstAttribute="top" secondItem="5" secondAttribute="top" constant="349" id="HSt-gT-g5e"/>
+                            <constraint firstItem="INr-5U-87D" firstAttribute="top" secondItem="5" secondAttribute="top" constant="368" id="LfI-Ur-eTT"/>
+                            <constraint firstAttribute="bottom" secondItem="mUY-oB-ycX" secondAttribute="bottom" constant="178" id="MSq-nn-mNL"/>
+                            <constraint firstAttribute="bottom" secondItem="LEW-Ux-oOs" secondAttribute="bottom" constant="96" id="NCU-Yu-W7I"/>
+                            <constraint firstItem="2C8-Qz-MS3" firstAttribute="leading" secondItem="BZ7-uT-3Mq" secondAttribute="leading" type="default" id="NQt-tS-tC7"/>
+                            <constraint firstItem="xG8-65-IPS" firstAttribute="top" secondItem="5" secondAttribute="top" constant="215" id="OR1-AE-OCw"/>
+                            <constraint firstAttribute="bottom" secondItem="8sk-WT-HRM" secondAttribute="bottom" constant="267" id="Sbe-Lt-ifx"/>
+                            <constraint firstItem="GWj-8l-c8B" firstAttribute="leading" secondItem="NUU-Rl-qJw" secondAttribute="leading" type="default" id="T6h-nA-YoB"/>
+                            <constraint firstItem="8sk-WT-HRM" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="416" id="UF9-xu-EtP"/>
+                            <constraint firstItem="xG8-65-IPS" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="294" id="XbI-Db-xti"/>
+                            <constraint firstItem="eNS-5q-bS6" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="bij-qu-QaA"/>
+                            <constraint firstItem="GWj-8l-c8B" firstAttribute="leading" secondItem="xG8-65-IPS" secondAttribute="leading" type="default" id="bnU-pG-ZSf"/>
+                            <constraint firstItem="GWj-8l-c8B" firstAttribute="trailing" secondItem="xG8-65-IPS" secondAttribute="trailing" type="default" id="c3P-Nx-yar"/>
+                            <constraint firstItem="oDn-eP-rjH" firstAttribute="trailing" secondItem="1bT-G4-7qC" secondAttribute="trailing" type="default" id="dIr-5F-GVT"/>
+                            <constraint firstItem="mUY-oB-ycX" firstAttribute="leading" secondItem="8sk-WT-HRM" secondAttribute="leading" type="default" id="djI-bp-kxp"/>
+                            <constraint firstItem="BZ7-uT-3Mq" firstAttribute="top" secondItem="5" secondAttribute="top" constant="70" id="hEa-b8-gvD"/>
+                            <constraint firstItem="mUY-oB-ycX" firstAttribute="leading" secondItem="LEW-Ux-oOs" secondAttribute="leading" type="default" id="l3G-KC-hOU"/>
+                            <constraint firstItem="1bT-G4-7qC" firstAttribute="leading" secondItem="NUU-Rl-qJw" secondAttribute="leading" type="default" id="lTb-Dj-c33"/>
+                            <constraint firstItem="NUU-Rl-qJw" firstAttribute="top" secondItem="GWj-8l-c8B" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oqw-rZ-WD8"/>
+                            <constraint firstItem="eNS-5q-bS6" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="qrm-S7-VFU"/>
+                            <constraint firstItem="eNS-5q-bS6" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="rFM-YU-hvv"/>
+                            <constraint firstItem="1bT-G4-7qC" firstAttribute="top" secondItem="NUU-Rl-qJw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="sTq-RG-wQt"/>
+                            <constraint firstItem="NUU-Rl-qJw" firstAttribute="trailing" secondItem="GWj-8l-c8B" secondAttribute="trailing" type="default" id="tux-eR-MBy"/>
+                            <constraint firstItem="eNS-5q-bS6" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="wPs-28-yOm"/>
+                            <constraint firstItem="BZ7-uT-3Mq" firstAttribute="centerX" secondItem="eNS-5q-bS6" secondAttribute="centerX" type="default" id="zhb-ki-cE5"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1282" y="-214"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D83-b3-BUm">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="lgv-9J-KV5" customClass="_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XXl-Kp-pqm">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fundo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2S7-8B-WdP">
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2S7-8B-WdP" firstAttribute="trailing" secondItem="XXl-Kp-pqm" secondAttribute="trailing" type="default" id="7CL-dd-vuZ"/>
+                            <constraint firstItem="2S7-8B-WdP" firstAttribute="leading" secondItem="XXl-Kp-pqm" secondAttribute="leading" type="default" id="rv4-fw-eUu"/>
+                            <constraint firstItem="2S7-8B-WdP" firstAttribute="top" secondItem="XXl-Kp-pqm" secondAttribute="top" type="default" id="u2s-yk-kY2"/>
+                            <constraint firstItem="2S7-8B-WdP" firstAttribute="bottom" secondItem="XXl-Kp-pqm" secondAttribute="bottom" type="default" id="zbt-0w-J4c"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Qz-De-ikD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="678"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Uh-h1-sQn">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="1Tq-7p-aOO" customClass="_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pGL-nw-JQc">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fundo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ntl-6L-JHz"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="707-Oh-cit">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="EeK-bZ-6GY"/>
+                                    <constraint firstAttribute="height" constant="62" id="weq-P4-amz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ntl-6L-JHz" firstAttribute="bottom" secondItem="pGL-nw-JQc" secondAttribute="bottom" type="default" id="2La-wA-GUt"/>
+                            <constraint firstItem="ntl-6L-JHz" firstAttribute="leading" secondItem="pGL-nw-JQc" secondAttribute="leading" type="default" id="AMD-5f-AnX"/>
+                            <constraint firstItem="707-Oh-cit" firstAttribute="top" secondItem="pGL-nw-JQc" secondAttribute="top" constant="70" id="QOl-6L-5oy"/>
+                            <constraint firstItem="ntl-6L-JHz" firstAttribute="top" secondItem="pGL-nw-JQc" secondAttribute="top" type="default" id="R2f-A4-XtC"/>
+                            <constraint firstItem="707-Oh-cit" firstAttribute="centerX" secondItem="ntl-6L-JHz" secondAttribute="centerX" type="default" id="wTu-cq-4lR"/>
+                            <constraint firstItem="ntl-6L-JHz" firstAttribute="trailing" secondItem="pGL-nw-JQc" secondAttribute="trailing" type="default" id="xq1-gA-FkO"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3Z-lr-2Hx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="-1210"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qpU-sh-4WZ">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="jKG-lp-6yQ" customClass="_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m5f-ef-VRk">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fundo.png" translatesAutoresizingMaskIntoConstraints="NO" id="MVO-uK-lmp"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="L8y-9P-FEL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="7d3-Ku-KJ6"/>
+                                    <constraint firstAttribute="height" constant="62" id="qDA-av-9ac"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0t-vs-HUC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="6YN-PE-J6e"/>
+                                    <constraint firstAttribute="height" constant="39" id="oL9-cZ-lfL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="voltar_botao.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="mAD-ZU-mZi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MVO-uK-lmp" firstAttribute="bottom" secondItem="m5f-ef-VRk" secondAttribute="bottom" type="default" id="59N-rB-SFf"/>
+                            <constraint firstItem="MVO-uK-lmp" firstAttribute="top" secondItem="m5f-ef-VRk" secondAttribute="top" type="default" id="Fl0-dE-rQ8"/>
+                            <constraint firstItem="L8y-9P-FEL" firstAttribute="top" secondItem="m5f-ef-VRk" secondAttribute="top" constant="70" id="HON-3f-lS7"/>
+                            <constraint firstAttribute="trailing" secondItem="r0t-vs-HUC" secondAttribute="trailing" constant="40" id="I8h-6S-O73"/>
+                            <constraint firstItem="r0t-vs-HUC" firstAttribute="top" secondItem="m5f-ef-VRk" secondAttribute="top" constant="364" id="PfT-hz-VNj"/>
+                            <constraint firstItem="MVO-uK-lmp" firstAttribute="leading" secondItem="m5f-ef-VRk" secondAttribute="leading" type="default" id="ShP-uD-7dA"/>
+                            <constraint firstItem="L8y-9P-FEL" firstAttribute="centerX" secondItem="MVO-uK-lmp" secondAttribute="centerX" type="default" id="cF8-bO-V9D"/>
+                            <constraint firstItem="MVO-uK-lmp" firstAttribute="trailing" secondItem="m5f-ef-VRk" secondAttribute="trailing" type="default" id="g2M-4V-ElG"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qED-NQ-CO7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="-278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="acessorios_aereos_icone.png" width="178" height="148"/>
+        <image name="alcas_para_portas_icone.png" width="178" height="148"/>
+        <image name="colecoes_banho_icone.png" width="178" height="148"/>
+        <image name="fundo.png" width="2048" height="1536"/>
+        <image name="institucional_icone.png" width="178" height="148"/>
+        <image name="logo.png" width="368" height="132"/>
+        <image name="puxadores_para_moveis.png" width="178" height="148"/>
+        <image name="voltar_botao.png" width="60" height="60"/>
+    </resources>
+    <classes>
+        <class className="FirstResponder">
+            <source key="sourceIdentifier" type="user"/>
+            <relationships>
+                <relationship kind="action" name="action"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/_ViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="7Bq-Xv-EVb"/>
+    </inferredMetricsTieBreakers>
 </document>
